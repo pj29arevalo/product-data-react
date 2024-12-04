@@ -6,7 +6,8 @@ import tailwindcss from 'tailwindcss'
 
 export default defineConfig(() => {
   return {
-    base: './',
+    // base: './',
+    base: '/product-data-react/',
     build: {
       outDir: 'build',
     },
