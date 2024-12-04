@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.dt-container .dt-paging .dt-paging-button {
+  @apply !p-0;
+}

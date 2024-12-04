@@ -1,8 +1,14 @@
+@import 'datatables.net-dt';
+
+@import 'datatables.net-responsive-dt';
+@import 'datatables.net-select-dt';
+
 // If you want to override variables do it here
 @import "variables";
 
 // Import styles
 @import "@coreui/coreui/scss/coreui";
+@import "@coreui/chartjs/scss/coreui-chartjs";
 
 // Vendors
 @import "vendors/simplebar";
@@ -12,3 +18,4 @@
 
 // If you want to add custom CSS you can put it here
 @import "custom";
+
